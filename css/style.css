@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Tajawal';
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-size: 20px;
+}
+#logo{
+    height: 70px;
+    width: 110px;
+}
+
+#nav-bar ul li a{
+   margin:0px 100px;
+   padding-left: 80px;
+   
+}
+
+#nav-bar ul li a:hover{
+   text-decoration: underline;
+}
+.main{
+    padding-top: 50px;
+}
+
+}
+#slider{
+    width: 100%;
+    height: 100px;
+}
+#slider img{
+    height: 550px;
+    width: 100%;
+}
+.caption{
+    top:50%;
+    transform: translateY(-150%);
+    bottom: initial !important;
+    text-align: center;
+    color: lavenderblush;
+    font-weight: bold;
+    color: rgb(255, 246, 246);
+    font-weight: bold;
+    
+}
+#main{
+    height: 560px;
+    width: 100%;
+}
+
+h4{
+    font-weight: bold;  
+}
+
+h1{
+    color: #000;
+    text-align: center;
+}
+
+#footer{
+    margin-top: 10px;
+    font-size:25px;
+    
+    height: 50px;
+    background:#e4e9ee;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: right;
+}

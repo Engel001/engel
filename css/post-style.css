@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Tajawal';
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-size: 20px;
+}
+#logo{
+    height: 70px;
+    width: 110px;
+}
+
+#nav-bar ul li a{
+   margin:0px 100px;
+   padding-left: 80px;
+   
+}
+
+#nav-bar ul li a:hover{
+   text-decoration: underline;
+}
+h1{
+    text-align: center;
+    
+}
+#post img{
+    
+    height: 300px;
+    width: 625px;
+}
+p{
+    font-size:28px;
+    text-align: right;
+}
+
+ol li{
+    font-size:28px;
+    font-weight: bold;
+    text-align: right;
+}
+#post a{
+    font-size:28px;
+    text-align: right;
+}
+#footer{
+    margin-top: 10px;
+    font-size:25px;
+    
+    height: 50px;
+    background:#e4e9ee;
+}
