@@ -1,39 +1,47 @@
-
 *{
     margin: 0;
     padding: 0;
-    font-family:'Tajawal';
+    font-family:'Amiri';
 }
 #nav-bar{
     position: sticky;
     top: 0;
     z-index: 10;
-    font-size: 20px;
+    border-top: black 1px solid;
+    border-bottom: black 2px solid;
+
 }
 #logo{
-    height: 70px;
-    width: 110px;
+    height: 120px;
+  
+}
+#header{
+    text-align: center;
 }
 
 #nav-bar ul li a{
    margin:0px 100px;
-   padding-left: 80px;
-   
+   padding-left: 90px;
+   font-size: 30px;
+   font-weight: bold;
+   color: black;
 }
 
 #nav-bar ul li a:hover{
    text-decoration: underline;
 }
 h1{
+    
     text-align: center;
+    text-decoration: underline;
     
 }
-#post img{
-    
-    height: 300px;
-    width: 625px;
+#post{
+    margin:50px;
 }
+
 p{
+    
     font-size:28px;
     text-align: right;
 }
@@ -42,6 +50,7 @@ ol li{
     font-size:28px;
     font-weight: bold;
     text-align: right;
+    
 }
 #post a{
     font-size:28px;
@@ -50,7 +59,12 @@ ol li{
 #footer{
     margin-top: 10px;
     font-size:25px;
-    
+    border-top: black solid 2px;
     height: 50px;
-    background:#e4e9ee;
+    
+    
+   }
+   #footer p {
+       margin: 0px 20px;
+       text-align: left;
 }
